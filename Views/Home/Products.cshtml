@@ -1,0 +1,83 @@
+@model IEnumerable<authproject.Models.Product>
+
+
+@{
+    ViewData["Title"] = "Page1";
+}
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <title>Title</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    </head>
+
+    <body>
+
+        <div class="container">
+            <div class="row table-responsive-md">
+                <div class="col-12 text-center">
+                    <table class="table table-image table-sm">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>@Html.DisplayNameFor(model => model.id)</th>
+                                <th>@Html.DisplayNameFor(model => model.name)</th>
+                                <th>@Html.DisplayNameFor(model => model.pic)</th>
+                                <th>@Html.DisplayNameFor(model => model.price)</th>
+                                <th>@Html.DisplayNameFor(model => model.size)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                        {
+                            string[] sizes = item.size.Split(',');
+                                <tr>
+                                    <th scope="row">
+                                        @Html.DisplayFor(modelItem => item.id)
+                                    </th>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.name)
+                                    </td>
+                                    <td class="w-25">
+                                        <img src="@Html.DisplayFor(modelItem => item.pic)" alt="product pic"
+                                            class="img-thumbnail img-fluid">
+
+
+                                    </td>
+                                    <td >
+                                        $@Html.DisplayFor(modelItem => item.price)
+                                    </td>
+                                    <td >
+                                        <div class="dropdown">
+                                            <button class="btn btn-dark dropdown-toggle" type="button"
+                                                data-toggle="dropdown">Sizes
+                                                <span class="caret"></span></button>
+                                            <ul class="dropdown-menu">
+                                                @foreach (var s in sizes)
+                                                {
+                                                    <li class="dropdown-item">
+                                                        @Html.DisplayFor(sizes => s)</li>
+                                                }
+                                            </ul>
+                                        </div>
+
+                                    </td>
+                                </tr>
+                        }
+                        </tbody>
+
+                    </table>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </body>
+
+</html>

@@ -9148,11 +9148,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jirayujanlert/Desktop/authproject/authproject.csproj",
+      "projectUniqueName": "/Users/jirayujanlert/Desktop/dotnetcoreproject1/authproject.csproj",
       "projectName": "authproject",
-      "projectPath": "/Users/jirayujanlert/Desktop/authproject/authproject.csproj",
+      "projectPath": "/Users/jirayujanlert/Desktop/dotnetcoreproject1/authproject.csproj",
       "packagesPath": "/Users/jirayujanlert/.nuget/packages/",
-      "outputPath": "/Users/jirayujanlert/Desktop/authproject/obj/",
+      "outputPath": "/Users/jirayujanlert/Desktop/dotnetcoreproject1/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/jirayujanlert/.nuget/NuGet/NuGet.Config"

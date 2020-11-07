@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J67xQB6VYpt8udP8XmcZFZgmUHry/upMgNFNojfvVnIcU1cMPdjZa6XKV+9Q+ulqGwKtc6fbzw+ObwORjn95bQ==",
+  "dgSpecHash": "p4wA8qp4bF51X3vwBO54QF9j/Gy61dMJAO6PJDVNdaEk4Iwb0xW/q0S+lMAzwEWv4JUylUR6OSzbeEIVzCjIWA==",
   "success": true,
-  "projectFilePath": "/Users/jirayujanlert/Desktop/authproject/authproject.csproj",
+  "projectFilePath": "/Users/jirayujanlert/Desktop/dotnetcoreproject1/authproject.csproj",
   "expectedPackageFiles": [
     "/Users/jirayujanlert/.nuget/packages/mailkit/2.9.0/mailkit.2.9.0.nupkg.sha512",
     "/Users/jirayujanlert/.nuget/packages/microsoft.aspnetcore.cryptography.internal/3.1.7/microsoft.aspnetcore.cryptography.internal.3.1.7.nupkg.sha512",
